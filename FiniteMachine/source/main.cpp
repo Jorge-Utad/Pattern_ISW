@@ -1,6 +1,6 @@
 #include <Windows.h>
 #include <cstdio>
-#include "lib/FiniteMachine.h"
+#include "../lib/FiniteMachine.h"
 #pragma comment (lib, "user32")
 #define GetKey(X) (!!GetAsyncKeyState(0[#X])&0x8000)
 
