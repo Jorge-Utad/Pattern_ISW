@@ -103,6 +103,10 @@ int main(int argc, char* argv[]) {
           playerx = 160;
           playery = 200;
           
+          if (isRecording)
+          {
+            commands.clear();
+          }
         }
         
         unsigned int gamepad = 0;
